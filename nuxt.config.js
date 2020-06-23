@@ -22,8 +22,8 @@ module.exports = {
   mode: 'universal',
   env: {
     baseUrl: baseUrl,
-    staticformsKey: '5a2ef7c1-03ff-443c-9684-956e11c52810',
-    googleAnalyticKey: 'googleAnalyticKey'
+    staticformsKey: '',
+    googleAnalyticKey: ''
   },
   /*
   ** Headers of the page

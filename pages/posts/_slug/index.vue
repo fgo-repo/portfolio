@@ -91,11 +91,19 @@
     mixins: [textToSpeechMixin],
     async asyncData({ app }) {      
       let post = null
-      let attribute = null
-      const fileContent = require(`~/staticMarkdowns/contents/${app.i18n.locale}/${app.context.params.slug}.md`)
-      const res = fm(fileContent.default)
-      post = md.render(res.body)
-      attribute = res.attributes
+      let attribute = {
+        title: '',
+        tags: [],
+        date: new Date()
+      }
+      try {
+        const fileContent = require(`~/staticMarkdowns/contents/${app.i18n.locale}/${app.context.params.slug}.md`)
+        const res = fm(fileContent.default)
+        post = md.render(res.body)
+        attribute = res.attributes
+      }
+      catch {
+      }
 
       return {
         post,

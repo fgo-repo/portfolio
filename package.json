@@ -8,7 +8,9 @@
     "start": "nuxt start",
     "export": "nuxt export",
     "serve": "nuxt serve",
-    "dist": "nuxt build && nuxt export && serve ./dist",
+    "dist": "nuxt build --target static && nuxt export && serve ./dist",
+    "gen": "nuxt build --target static && nuxt export",
+    "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },

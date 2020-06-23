@@ -4,7 +4,7 @@ export default ({ app }) => {
     /*
     ** Seulement exécuté côté client et en mode production
     */
-    if (process.env.NODE_ENV !== 'production') return
+    if (process.env.NODE_ENV !== 'production' || process.env.googleAnalyticKey.length === 0) return
     /*
     ** Inclusion du script Google Analytics
     */
