@@ -1,6 +1,6 @@
 const path = require("path")
 var glob = require('glob')
-let baseUrl = 'http://localhost:3000'
+let baseUrl = 'https://www.fabricegoret.com'
 let locales = [
   {
     code: 'fr',
