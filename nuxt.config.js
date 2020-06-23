@@ -21,9 +21,9 @@ let files = locales.map(locale => {
 module.exports = {
   mode: 'universal',
   env: {
-    baseUrl: baseUrl,
-    staticformsKey: '',
-    googleAnalyticKey: ''
+    baseUrl:  process.env.BASE_URL || baseUrl,
+    staticformsKey:  process.env.STATIC_FORM_KEY || '',
+    googleAnalyticKey:  process.env.GOOGLE_ANALYTIC_KEY || ''
   },
   /*
   ** Headers of the page
