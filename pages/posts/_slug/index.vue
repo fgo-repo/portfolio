@@ -89,10 +89,10 @@
   export default {
     components: { SliderItem },
     mixins: [textToSpeechMixin],
-    async asyncData({ app }) {      
+    async asyncData({ app }) {
       let post = null
       let attribute = {
-        title: '',
+        title: '404',
         tags: [],
         date: new Date()
       }
@@ -185,7 +185,7 @@
       return {
         title: this.attribute.title,
         htmlAttrs: {
-          lang: this.$i18n.locale,
+          lang: this.$i18n.locale
         },
         meta: [
           { name: "author", content: this.attribute.author },
@@ -194,5 +194,5 @@
         ]
       }
     }
-  };
+  }
 </script>

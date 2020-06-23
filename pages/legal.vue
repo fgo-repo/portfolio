@@ -7,7 +7,7 @@
                         type="cookie"
                         folder="legal"
                         class="content"
-/>
+                    />
                 </div>
             </div>
             <div class="card content">
@@ -16,7 +16,7 @@
                         type="legal"
                         folder="legal"
                         class="content"
-/>
+                    />
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
         return {
             title: this.$t('legal.title'),
             htmlAttrs: {
-                lang: this.$i18n.locale,
+                lang: this.$i18n.locale
             },
             meta: [
                 { name: "author", content: this.resume.name },
@@ -41,6 +41,6 @@
                 { property: "og:title", content: this.$t('legal.title') }
             ]
             }
-        },
+        }
     }
 </script>

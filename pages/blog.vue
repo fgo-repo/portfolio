@@ -42,16 +42,16 @@ export default {
   },
   head() {
     return {
-        title: this.$t('cvPrint.title'),
+        title: this.$t('blog.title'),
         htmlAttrs: {
-          lang: this.$i18n.locale,
+          lang: this.$i18n.locale
         },
         meta: [
             { name: "author", content: this.resume.name },
-            { name: "description", property: "og:description", content: this.$t('cvPrint.description'), hid: "description" },
-            { property: "og:title", content: this.$t('cvPrint.title') }
+            { name: "description", property: "og:description", content: this.$t('blog.description'), hid: "description" },
+            { property: "og:title", content: this.$t('blog.title') }
         ]
       }
   }
-};
+}
 </script>

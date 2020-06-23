@@ -6,7 +6,6 @@
 
 <script>
   const MarkdownIt = require('markdown-it')
-  const mda = require('markdown-it-attrs')
   const fm = require("front-matter")
   const md = new MarkdownIt({
   /*   html: true,
@@ -16,7 +15,7 @@
     // injected: true,
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true // Autoconvert URL-like text to links    
-  }).use(mda)
+  })
 
   export default {
     name: 'MarkdownItem',

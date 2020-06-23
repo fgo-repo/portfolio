@@ -40,5 +40,6 @@ module.exports = {
     "vue/no-v-html": "off",
     "vue/require-default-prop": "off",
     "vue/max-attributes-per-line": "off",
+    "nuxt/no-this-in-fetch-data": "off"
   }
 }

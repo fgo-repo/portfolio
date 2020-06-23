@@ -28,7 +28,7 @@
             return {
                 title: this.$t('contact.title'),
                 htmlAttrs: {
-                    lang: this.$i18n.locale,
+                    lang: this.$i18n.locale
                 },
                 meta: [
                     { name: "author", content: this.resume.name },

@@ -18,18 +18,8 @@
                 <div class="navbar-item">
                     <nuxt-link :to="localePath('/')" class="has-text-white is-unselectable">{{ $t('home.title') }}</nuxt-link>
                 </div>
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <div class="navbar-item">
-                        <nuxt-link :to="localePath('/cv')" class="has-text-white is-unselectable">{{ $t('cv.title') }}</nuxt-link>
-                    </div>
-                    <div :class="`navbar-dropdown is-boxed has-background-${type}`">
-                        <div class="navbar-item">
-                            <nuxt-link :to="localePath('/cv')" class="has-text-white is-unselectable">{{ $t('cv.description') }}</nuxt-link>
-                        </div>
-                        <div class="navbar-item">
-                            <nuxt-link :to="localePath('/print')" class="has-text-white is-unselectable">{{ $t('cvPrint.title') }}</nuxt-link>
-                        </div>
-                    </div>
+                <div class="navbar-item">
+                    <nuxt-link :to="localePath('/cv')" class="has-text-white is-unselectable">{{ $t('cv.title') }}</nuxt-link>
                 </div>
                 <div class="navbar-item">
                     <nuxt-link :to="localePath('/contact')" class="has-text-white is-unselectable">{{ $t('contact.title') }}</nuxt-link>

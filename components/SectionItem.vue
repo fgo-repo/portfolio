@@ -1,5 +1,5 @@
 <template>
-    <section :class="[sectionBase, diagonal]" :data-aos="`fade-up-${side}`" data-aos-duration="500">
+    <section :class="[sectionBase, diagonal]" :data-aos="side" data-aos-duration="500">
       <div class="container bg-content">
         <slot />
     </div>
@@ -23,7 +23,7 @@
             return this.index % 2 ? "diagonal-box bg-two" : "diagonal-box bg-one"
         },
         side() {
-          return this.index % 2 ? "left" : "right"
+          return this.index === 0 ? "avoidIE" : this.index % 2 ? "fade-up-left" : "fade-up-right"
         }
     }
   }
