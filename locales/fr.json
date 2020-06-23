@@ -1,0 +1,79 @@
+{
+    "home": {
+        "title": "Acceuil",
+        "description": "site de Fabrice Goret",
+        "hi": "Salut! Je suis un",
+        "iAm": "Je suis",
+        "iLike": "J'aime",
+        "compentencies": [
+            {"title":"Analyste", "description":"Avoir la vue d'ensemble"},
+            {"title":"Développeur", "description":"Faire que les choses arrivent"},
+            {"title":"Concepteur visuel", "description":"Faire que les choses ont l'air bien"},
+            {"title":"Concepteur d'interactions", "description":"Faire que les choses soient faciles à utiliser"}
+        ],
+        "interests": [
+            "Rendre les utilisateurs heureux",
+            "Créer des solutions logicielles complexes, dimensionables et robustes",
+            "Rendre les interfaces intuitives",
+            "Travailler avec des gens supers"
+        ],
+        "lookAt": "Vous pouvez aussi jeter un oeil à"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Restons en contact",
+        "contactMe": "Voulez-vous me contacter? Restons en contact!",
+        "subject": "Sujet",
+        "from": "De",
+        "topic": "Section",
+        "message": "Message",
+        "sendMessage": "Envoyer le message",
+        "name": "Nom",
+        "email": "courriel",
+        "job": "Travail",
+        "openSource": "Open source",
+        "lunch": "Dîner",
+        "else": "Autre"
+    },
+    "cv": {
+        "title": "CV",
+        "description": "CV complet",
+        "contact" : "Contact",
+        "education" : "Education",
+        "employment" : "Emplois",
+        "info" : "Informations",
+        "interests" : "Intérêts",
+        "languages" : "Langues",
+        "projects" : "Projets",
+        "skills" : "Compétences",
+        "testimonials" : "Témoignages"
+    },
+    "cvPrint": {
+        "title": "Impression",
+        "description": "Impression"
+    },
+    "blog": {
+        "title": "Projets",
+        "description": "Mes projets publiés",
+        "read": "min de lecture",
+        "play": "lecture",
+        "pause": "pause",
+        "stop": "stop"
+    },
+    "legal": {
+        "title": "Légal",
+        "description": "Mentions légales et cookies"
+    },
+    "footer": {
+        "design": "Conçu par",
+        "rights": "Tous droits réservés"
+    },
+    "gdpr": {
+        "ok": "ok",
+        "info": "informations",
+        "disclaimer": "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour améliorer votre expérience d'utilisateur et réaliser des statistiques anonymes de visites."
+    },
+    "error": {
+        "404": "Page non trouvée"
+    }
+}

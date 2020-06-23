@@ -1,0 +1,80 @@
+{
+    "home": {
+        "title": "Home",
+        "description": "Fabrice Goret's website",
+        "hi": "Hi! I'm a",
+        "iAm": "I'm",
+        "iLike": "I like",
+        "compentencies": [
+            {"title":"Analyst", "description":"Seeing the big picture"},
+            {"title":"Developer", "description":"Making things happen"},
+            {"title":"Visual Designer", "description":"Making things look good"},
+            {"title":"Interaction Designer", "description":"Making things easy to use"}
+        ],
+        "interests": [
+            "Making users happy",
+            "Creating complex, large-scale and robust software systems",
+            "Making intuitive interfaces",
+            "Working with great people"
+        ],
+        "lookAt": "You may also have a look at"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Get in touch",
+        "contactMe": "Do you want to contact me? Let’s get in touch!",
+        "subject": "Subject",
+        "from": "From",
+        "topic": "Topic",
+        "message": "Message",
+        "sendMessage": "Send message",
+        "name": "Name",
+        "email": "Email",
+        "job": "Job",
+        "openSource": "Open source",
+        "lunch": "Lunch",
+        "else": "Else"
+    },
+    "cv": {
+        "title": "Resume",
+        "description": "Full resume",
+        "contact" : "Contact",
+        "education" : "Education",
+        "employment" : "Employment",
+        "info" : "Information",
+        "interests" : "Interests",
+        "languages" : "Languages",
+        "projects" : "Projects",
+        "skills" : "Skills",
+        "testimonials" : "Testimonials"
+    },
+    "cvPrint": {
+        "title": "Print resume",
+        "description": "Print resume"
+    },
+    "blog": {
+        "title": "Projects",
+        "description": "My public projects",
+        "read": "min read",
+        "play": "play",
+        "pause": "pause",
+        "stop": "stop"
+    },
+    "legal": {
+        "title": "Legal",
+        "description": "Legal mentions and cookies"
+    },
+    "footer": {
+        "design": "Design by",
+        "rights": "All Rights Reserved"
+    },
+    "gdpr": {
+        "ok": "ok",
+        "info": "info",
+        "disclaimer": "By continuing to browse this site, you agree to use cookies to improve your user experience and generate anonymous visit statistics."
+    },
+    "error": {
+        "404": "Page not found"
+    }
+}
+  

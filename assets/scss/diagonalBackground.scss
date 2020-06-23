@@ -1,0 +1,82 @@
+:root {
+    --width: 100vw;
+    --full-width: 100vw;
+    
+    @media (min-width: 42em) {
+      --width: 42rem;
+    }
+    
+    --angle: 3deg;
+    --angle2: calc(var(--angle) * -1);
+    /*-----------------
+    Magic Number Alert:
+    
+    the 0.09719 is calculated by this formula:
+    tan(11°) / 2
+    11° is the current skewY value. 0.07919 0.05255
+    ------------------*/
+    --magic-number: 0.02620;
+    --skew-padding: calc(var(--width) * var(--magic-number));
+    --clip-padding: calc(var(--full-width) * var(--magic-number));
+}
+
+.diagonal-box {
+  position: relative;
+  padding: var(--skew-padding) 0;
+  margin-top: -1px;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: 50% 0;
+    outline: 1px solid transparent;
+    backface-visibility: hidden;
+  }
+}
+  
+.bg-one:before {
+    background-image: linear-gradient(135deg, $blue, $blue-invert);
+    transform: skewy(var(--angle));
+}
+.bg-two:before {
+    background-image: linear-gradient(45deg, $purple-invert, $purple);
+    transform: skewy(var(--angle2));
+}
+[data-mode="dark"] {
+  .bg-one:before {
+    background-image: linear-gradient(135deg, $blue-dark, $blue);
+  }
+  .bg-two:before {
+      background-image: linear-gradient(45deg, $purple, $purple-dark);
+  }
+}
+.diagonal-box-hover .bg-content:hover {
+  border: 2px dashed $grey-lighter;
+  border-radius: $radius-large $radius-largest;
+}
+
+.bg-content {
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 1.5em;
+  position: relative;
+  // debug
+  // border: 2px dashed #fff8;
+}
+
+[class*="tapered-"] {
+  background-size: 100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 2%;
+}
+.tapered-down {
+  background-image: linear-gradient(179deg, $light, $grey-lighter, transparent 54%, transparent 100%);
+}
+
+.tapered-up {
+  background-image: linear-gradient(181deg, $grey-lighter, $light, transparent 54%, transparent 100%);
+}

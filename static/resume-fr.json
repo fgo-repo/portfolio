@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "format": "FRAIS@^1.0.0-bêta",
+    "modified": "2020-03-02T22:39:41.225 Z"
+  },
+  "name": "Fabrice Goret",
+  "info": {
+    "label": "Analyste développeur full stack",
+    "brief": "J'ai plus de 10 ans d'expérience dans le domaine .NET et Oracle technologies, spécialisée dans le domaine des services financiers au Luxembourg. Mon expérience va du développement front et back-end, y compris les API, les micro-services, base de données, de reporting, de l'exploration de données et les applications Windows. Au-delà du développement, j'ai analysé les besoins, proposé et mis en œuvre avec succès des solutions durables, à la suite de modèles de conception sna meilleures pratiques. Mes principaux centres d'intérêt dans la zone de développement sont l'analyse, les architectures orientées Web et bases de données.",
+    "image": "/images/ego.png",
+    "quote": "Évoluer ou mourir"
+  },
+  "location": {
+    "city": "Bertrange",
+    "country": "Luxembourg"
+  },
+  "contact": {
+    "email": "fabrice.goret@gmail.com",
+    "website": "https://www.goret.com",
+    "other": []
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/in/fgoret/",
+      "user": "fgoret"
+    },
+    {
+      "label": "GitHub",
+      "network": "github",
+      "url": "https://github.com/fgo-repo",
+      "user": "fgo-repo"
+    },
+    {
+      "label": "Dev",
+      "network": "dev-to",
+      "url": "https://dev.to/fabrice",
+      "user": "Fabrice"
+    }
+  ],
+  "employment": {
+    "summary": "Liste des formidables opportunités que j'ai pris",
+    "history": [
+      {
+        "position": "Analyste, développeur de logiciels",
+        "employer": "Kneip",
+        "summary": "Analyse, architecture et développement en .Net et microservices en .Net core, basés sur une couche d'accès de données Entity Framework/Oracle ou une base de données Hbase, communiquant ensemble par événements Kafka.",
+        "current": true,
+        "start": "2017-01-01",
+        "url": "https://www.kneip.com/",
+        "keywords": [
+          "C#",
+          ".NET core",
+          ".NET",
+          "microservices",
+          "Hbase",
+          "Oracle"
+        ],
+        "highlights": [
+          "Conception du premier microservice et librairies communes en .Net core chez Kneip"
+        ]
+      },
+      {
+        "position": "Développeur de logiciels",
+        "employer": "Kneip",
+        "summary": "Développement d'applications pour l'industrie des Fonds",
+        "start": "2012-09-01",
+        "end": "2016-12-31",
+        "url": "https://www.kneip.com/",
+        "keywords": [
+          "C#",
+          ".NET",
+          "Oracle",
+          "ASP MVC",
+          "NUnit",
+          "ASP .Net",
+          "Delphi"
+        ],
+        "highlights": [
+          "Clients et applications web pour l'industrie des Fonds (Financial reporting, KIIDs, PRIIPs).",
+          "La mise en œuvre de nouveaux rapports (MMIF, MMM, le MRN, MC1, U1.1,...) basées sur les spécifications officielles.",
+          "Conception et développement d'un service web utilisé pour générer des rapports. Il utilise l'injection et de l'abstraction pour permettre de multiples sources de données, des templates, et à être utilisé par n'importe quel logiciel sur n'importe quel type de base de données (les données peuvent provenir de db).",
+          "La mise en œuvre de tests unitaires."
+        ]
+      },
+      {
+        "position": "Ingénieur en automatique",
+        "employer": "Duferco",
+        "summary": "Développement d'applications pour l'industrie de l'acier",
+        "start": "2007-10-01",
+        "end": "2012-09-01",
+        "url": "https://eu.nlmk.com/en/",
+        "keywords": [
+          "C#",
+          ".NET",
+          "Oracle",
+          "SAP Crystal Reports"
+        ],
+        "highlights": [
+          "Développement et amélioration du système informatique de supervision de l’aciérie, avec acquisition écriture de données sur des automates (via opc server) et sur des instruments. Il permet d'enregistrer les données de process avec peu d'intervention des ouvriers, à obtenir et à répondre aux ordres de fabrication des commerciaux et de les adapter à la production, afin d'appliquer et de montrer la qualité des recettes, afin d'obtenir le retour des opérateurs.",
+          "Conception et programmation d'outils de prise de décision pour la qualité et la production.",
+          "Conception et programmation de centaines de rapports statistiques. Au moins 140 d'entre eux peuvent être imprimés par rapport Crystal. Certains d'entre eux sont directement commentés par les utilisateurs dans l'interface de supervision.",
+          "Conception et programmation d'un outil pour extraire et de mettre à jour une base de données historique, à partir d'une base de données de production par du pl/sql dynamique.",
+          "Conception et programmation d'un générateur de code pour la DAL et les opérations CRUD.",
+          "Formations des opérateurs et le help desk."
+        ]
+      },
+      {
+        "position": "Ingénieur en automatique",
+        "employer": "Mubea Systems",
+        "summary": "Automatisation et programmation de l'interface utilisateur.",
+        "start": "2006-01-01",
+        "end": "2007-09-30",
+        "url": "https://www.mubeasystems.com/",
+        "keywords": [
+          "C#",
+          ".NET",
+          "Siemens S7",
+          "Autodesk Inventor"
+        ],
+        "highlights": [
+          "Conception mécanique et graphique d'une machine-outil.",
+          "Automatisation et programmation fonctionnelle de l’interface utilisateur de scieuses doubles, axes CNC, moteurs des scies commandés par un variateur de fréquence, ayant jusqu’à 5 axes de liberté."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Co-React",
+      "category": "privé",
+      "url": "https://www.kneip.com/ucits-kiid/",
+      "media": [],
+      "role": "Contributeur",
+      "summary": "Co-React est très facile d'utilisation, solution complète basée sur le web pour la gestion de production en masse de documents dynamiques, tout en garantissant l'intégrité des données et de l'efficacité.",
+      "description": "La solution contient son propre ETL, son modèle dynamique, son modèle d'évènements, son scheduler, ses traductions, son templater, son service de calcul et de génération de documents",
+      "highlights": [
+        "KIID, KID, KFS",
+        "EPT, CEPT, CEPT-RHP",
+        "Operating memorandum",
+        "Contractual documents"
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Oracle",
+        "ASP MVC"
+      ]
+    },
+    {
+      "title": "Co-Stream",
+      "category": "privé",
+      "url": "https://www.kneip.com/aifm-annex-iv/",
+      "media": [],
+      "role": "Contributeur",
+      "summary": "Co-Stream est une solution web utilisé pour gérer les workflows et les tâches des utilisateurs.",
+      "description": "Des contrôleurs internes ou comptables aux parties prenantes externes telles que les auditeurs ou les promoteurs aux investisseurs eux-mêmes, tous les acteurs peuvent bénéficier de Co-Stream. Ils l'utilisent directement ou en obtiennent des informations (par exemple, un site Web de promoteur pour les investisseurs peut être alimenté grâce aux fonctionnalités de distribution de données de Co-Stream). Un auditeur prêt à examiner les ébauches, un traducteur pour l'édition et la publication des documents, un contrôleur pour organiser la planification de l'équipe de reporting, tous trouveront dans Co-Stream, la solution à leurs besoins spécifiques.",
+      "highlights": [
+        "Workflows, tâches et gestion des données"
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Oracle",
+        "ASP .Net"
+      ]
+    },
+    {
+      "title": "Co-Reporter",
+      "category": "privé",
+      "url": "https://www.kneip.com/financial-reporting/",
+      "media": [],
+      "role": "Contributeur",
+      "summary": "Co-Reporter est une solution de publication de bases de données pour le secteur de l'investissement de fonds visant à générer des rapports entièrement personnalisables pour répondre à tous les besoins spécifiques (dans la forme et le contenu).",
+      "description": "Cela s'applique à tout type de fonds (particuliers ou institutionnels, fonds communs de placement ou de couverture, fonds spéciaux, etc.) dans n'importe quel contexte juridique, des IFRS aux PCGR locaux. Il génère automatiquement, dans n'importe quelle langue et de la manière la plus efficace toutes sortes de rapports. Avec une flexibilité totale, Co-Reporter vous permet de produire des rapports (à la demande ou par lots) aux autorités, aux investisseurs et à leurs clients mais aussi de répondre aux nouvelles opportunités ou besoins commerciaux.",
+      "highlights": [
+        "Rapports Financiers",
+        "Rapports Réglementaires",
+        "Fiches d'information"
+      ],
+      "keywords": [
+        "Oracle",
+        "Delphi"
+      ]
+    },
+    {
+      "title": "Serveur de tâches Co-Reporter",
+      "category": "privé",
+      "media": [],
+      "role": "Contributeur",
+      "summary": "Co-Reporter Task Server est un service Windows qui exécute de nombreuses tâches (importation, exportation, génération, calcul ...) en arrière-plan pour Co-Reporter / Co-Stream.",
+      "description": "",
+      "highlights": [
+        "Priorité entre les tâches",
+        "Pipelines de tâches"
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Oracle"
+      ]
+    },
+    {
+      "title": "Bosel",
+      "category": "open-source",
+      "repo": "https://github.com/fgo-repo/bosel",
+      "media": [],
+      "role": "Créateur",
+      "summary": "Simple extracteur/chargeur de données banquaires",
+      "description": "Ce logiciel vous fournira un moyen simple et simple de fusionner les sorties de vos banques à partir de vos différents comptes.",
+      "highlights": [
+        "Configuration flexible par banque. ETL.",
+        "Regroupement par catégories personnalisées",
+        "Sortie Excel avec pivots, graphiques et regroupements",
+        "Excel et csv acceptés comme entrées",
+        "Configuration facile des mappages de catégories par un addin Excel"
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "VSTO"
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "category": "open-source",
+      "repo": "",
+      "media": [],
+      "role": "Créateur",
+      "summary": "Site web personnel",
+      "description": "Site web réactif et multilingue basé sur Nuxt, dont la structure du portfolio est basée sur le schéma de CV FRESH, comprenant un blog alimenté par des markdowns.",
+      "highlights": [
+        "réactif",
+        "multilingue",
+        "css personnalisé"
+      ],
+      "keywords": [
+        "Nuxt",
+        "Vue Js",
+        "Schéma FRESH",
+        "Bulma",
+        "Markdown"
+      ]
+    },
+    {
+      "title": "Siam Healthcare",
+      "category": "privé",
+      "url": "https://www.siamhealthcare.be",
+      "media": [],
+      "role": "Créateur",
+      "summary": "Site web de l'entreprise",
+      "description": "Site Web réactif et multilingue fabriqué à Nuxt. Flyers, tampon et carte de visite réalisés avec Photoshop.",
+      "highlights": [
+        "réactif",
+        "multilingue",
+        "css personnalisé"
+      ],
+      "keywords": [
+        "Nuxt",
+        "Vue Js",
+        "UiKit",
+        "Photoshop"
+      ]
+    },
+    {
+      "title": "Baan Yä",
+      "category": "privé",
+      "url": "http://www.baanya.be",
+      "media": [],
+      "role": "Créateur",
+      "summary": "Site web de l'entreprise",
+      "description": "Site réactif et multilingue réalisé en Angular 1.5, incluant une réservation en ligne. Flyer et carte de visite réalisés avec Photoshop.",
+      "highlights": [
+        "réactif",
+        "multilingue",
+        "css personnalisé"
+      ],
+      "keywords": [
+        "Angulaire de 1,5",
+        "Photoshop",
+        "Timify"
+      ]
+    }
+  ],
+  "education": {
+    "summary": "Formations suivies",
+    "level": "degré",
+    "degree": "Maître",
+    "history": [
+      {
+        "title": "USQLA - Administration de Bases de données et de serveurs via SQL Server 2008",
+        "area": "Informatic",
+        "start": "2011-12-19",
+        "end": "2011-12-23",
+        "url": "https://www.u2u.be/",
+        "location": "Zellik, Belgique"
+      },
+      {
+        "title": "Amélioration des langues",
+        "area": "Langues",
+        "start": "2004-09-01",
+        "end": "2005-12-31",
+        "highlights": [
+          "Immersion en Angleterre",
+          "Cours du soir en Anglais et en néerlandais",
+          "Cours du jour en Anglais et en Allemand au Forem"
+        ],
+        "location": "Bristol, en Angleterre et en Belgique"
+      },
+      {
+        "title": "Algorithmique et programmation",
+        "institution": "Université catholique de Louvain",
+        "area": "Informatique",
+        "studyType": "Master",
+        "start": "2003-09-01",
+        "end": "2004-06-30",
+        "url": "https://uclouvain.be/",
+        "location": "Louvain-la-Neuve, Belgique"
+      },
+      {
+        "title": "Ingénieur industriel, section électromecanique, spécialisation automatique",
+        "institution": "Haute Ecole Louvain en Hainaut",
+        "area": "Ingénierie",
+        "studyType": "Master",
+        "start": "1999-09-01",
+        "end": "2003-06-30",
+        "grade": "haute distinction",
+        "url": "https://www.helha.be/",
+        "location": "Mons, Belgique"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Français",
+      "level": "natif"
+    },
+    {
+      "language": "Anglais",
+      "level": "avancé"
+    },
+    {
+      "language": "Thaï",
+      "level": "débutant"
+    }
+  ],
+  "skills": {
+    "sets": [
+      {
+        "name": "Backend",
+        "level": "avancé",
+        "skills": [
+          "C#",
+          ".NET de base",
+          ".NET",
+          "Entity Framework",
+          "microservices",
+          "Oracle",
+          "Hbase",
+          "Kafka",
+          "Nunit",
+          "Moq"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "level": "avancé",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Vue",
+          "Vuex",
+          "Nuxt",
+          "ASP MVC",
+          "AngularJS"
+        ]
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Voyages",
+      "summary": "Toujours curieux de découvrir de nouveaux pays et personnes",
+      "keywords": []
+    },
+    {
+      "name": "Musique",
+      "summary": "Ouvert à la plupart des styles musicaux",
+      "keywords": []
+    },
+    {
+      "name": "La lecture",
+      "summary": "La connaissance est le pouvoir",
+      "keywords": []
+    },
+    {
+      "name": "Open Source",
+      "summary": "Apprendre, pratiquer, partager, enseigner",
+      "keywords": []
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Mathieu Mansart, consultant chez SOGETI Luxembourg",
+      "flavor": "professionnel",
+      "quote": "Fabrice possède un très bon bagage technique dans les langages et technologies Microsoft. Toujours prêt à relever de nouveaux défis, à apprendre de nouvelles choses et à transmettre ses connaissances, ce qui en fait un super membre d'équipe et un très bon collègue.",
+      "private": false
+    },
+    {
+      "name": "Pierre Colart, développeur fullstack java angular",
+      "flavor": "professionnel",
+      "quote": "Fabrice est un développeur curieux qui aime découvrir différents langages informatiques en lisant les diverses documentation et en testant celle-ci, ce qui fait de lui un très bon développeur. Durant ma mission, il a mis en place plusieurs projets 'from scratch' dû à ces différentes compétences techniques. C'est un développeur talentueux et de confiance, toujours disponible pour aider ces collègues et partager son savoir.",
+      "private": false
+    }
+  ]
+}

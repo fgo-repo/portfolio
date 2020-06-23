@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>
+
+<script>  
+  let title = ''
+  function handleVisibilityChange() {
+    if (document.hidden) {
+      title = document.title
+      document.title = '🙈🙉🙊 ...'
+    } else {
+      document.title = title
+    }
+  }
+
+  (function(){
+    if (document.addEventListener) {
+      document.addEventListener("visibilitychange", handleVisibilityChange, false)
+    }
+  })()
+</script>

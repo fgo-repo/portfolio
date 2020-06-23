@@ -1,0 +1,126 @@
+@import "~bulma/sass/utilities/_all";
+
+/* Custom colours:
+    see https://bulma.io/documentation/customize/
+*/
+
+//hsl(196, 69%, 57%)
+/* $primary: hsl(163, 71%, 55%);
+$primary-invert: findColorInvert($primary); */
+
+$blue: hsl(228, 68%, 60%);
+$blue-dark: hsl(228, 68%, 30%);
+$blue-invert: findColorInvert($blue);
+
+$green: hsl(90, 71%, 55%);
+$green-invert: findColorInvert($green);
+
+$purple: hsl(292, 54%, 57%);
+$purple-dark: hsl(292, 54%, 30%);
+$purple-invert: findColorInvert($purple);
+
+$orange: hsl(31, 72%, 53%);
+$orange-invert: findColorInvert($orange);
+
+$success: hsl(163, 57%, 48%);
+$success-invert: findColorInvert($primary);
+
+$info: hsl(196, 72%, 53%);
+$info-invert: findColorInvert($info);
+
+/* $light: hsl(196, 61%, 72%); //hsl(196, 61%, 72%);
+$light-invert: findColorInvert($light); */
+
+$dark: hsl(227, 16%, 23%);
+$dark-invert: findColorInvert($dark);
+
+$link: $info;
+$link-invert: findColorInvert($link);
+
+$link-hover: hsl(229, 19%, 66%);
+$link-focus: hsl(229, 19%, 66%);
+
+$strong-color: hsl(229, 19%, 66%);
+
+$radius-largest: 18px;
+$family-primary: Arial,Helvetica,sans-serif;
+$family-secondary: "Trebuchet MS",Arial,Helvetica,sans-serif;
+$title-family: $family-secondary;
+$subtitle-family: $family-secondary;
+
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "link": ($link, $link-invert),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert)
+);
+
+[data-mode="dark"] {
+    .hero.is-info {
+        background-color: $black !important;
+    }
+    .is-light {
+        background-color: $grey-light !important;
+    }
+    .is-light.is-bold {
+        background-image: linear-gradient(141deg, $grey-dark 0%, $grey 71%, $grey-light 100%) !important;
+    }
+    .has-background-info, .card{
+        background-color: $black !important;
+        color: $white !important;
+    }
+    .title, .subtitle, .label, h1, h2, h3, h4, h5, h6, p, li, th, td, strong, div {
+        color: $white !important;
+    }
+    .input, .textarea, .select {
+        background-color: $black !important;
+        border-color: $grey-light !important;
+        color: $white !important;
+    }
+    ::placeholder {
+        color: $white !important;
+        opacity: 1;
+    }
+    // force the cv print to default colors
+    #resume .title, #resume .subtitle, #resume li, #resume div {
+        color: $black !important;
+    }
+}
+
+@import "./bulma/bulma-timeline.sass";
+@import "./scss/common";
+@import "./scss/logos";
+@import "./scss/slider";
+@import "./scss/switch";
+@import "./scss/diagonalBackground";
+/* @import "~bulma"; */
+@import "~bulma/sass/base/_all.sass";
+
+@import "~bulma/sass/components/card.sass";
+@import "~bulma/sass/components/dropdown.sass";
+@import "~bulma/sass/components/level.sass";
+@import "~bulma/sass/components/navbar.sass";
+/* @import "~bulma/sass/components/pagination.sass"; */
+
+@import "~bulma/sass/elements/box.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/content.sass";
+@import "~bulma/sass/elements/icon.sass";
+@import "~bulma/sass/elements/image.sass";
+@import "~bulma/sass/elements/notification.sass";
+@import "~bulma/sass/elements/other.sass";
+@import "~bulma/sass/elements/tag.sass";
+@import "~bulma/sass/elements/title.sass";
+
+@import "~bulma/sass/form/_all.sass";
+
+@import "~bulma/sass/grid/columns.sass";
+
+@import "~bulma/sass/layout/_all.sass";
