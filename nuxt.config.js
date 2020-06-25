@@ -87,31 +87,6 @@ module.exports = {
     'cookie-universal-nuxt',
     '@nuxtjs/sitemap'
   ],
-  /*
-  ** Build configuration
-  */
-  build: {
-    extend (config, { isDev, isClient, loaders: { vue } }) {
-      if (isClient) {
-        // lazysizes config
-        vue.transformAssetUrls.img = ['data-src', 'src']
-        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
-      }
-      
-      // run ESLint on save
-      if (isDev && isClient) {
-        config.module.rules.push({
-            enforce: 'pre',
-            test: /\.(js|vue)$/,
-            loader: 'eslint-loader',
-            exclude: /(node_modules)/,
-            options: {
-              fix: true
-          }
-        })
-      }
-    }
-  },
   sitemap: {
     hostname: baseUrl,
     routes() {
@@ -120,14 +95,11 @@ module.exports = {
     path: '/sitemap.xml',
     gzip: true,
     generate: false,
-     // shortcut notation (basic)
-     i18n: 'en',
-     // nuxt-i18n notation (advanced)
-     i18n: {
+    i18n: {
        defaultLocale: 'en',
        locales: locales,
        routesNameSeparator: '___'
-     }
+    }
   },
   i18n: {
     // vue-i18n configuration
@@ -257,8 +229,30 @@ module.exports = {
     subFolders: false,
     routes: files
   },
+  /*
+  ** Build configuration
+  */
   build: {
-    extend(config, ctx) {
+    extend (config, { isDev, isClient, loaders: { vue } }) {
+      if (isClient) {
+        // lazysizes config
+        vue.transformAssetUrls.img = ['data-src', 'src']
+        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+      }
+      
+      // run ESLint on save
+      if (isDev && isClient) {
+        config.module.rules.push({
+            enforce: 'pre',
+            test: /\.(js|vue)$/,
+            loader: 'eslint-loader',
+            exclude: /(node_modules)/,
+            options: {
+              fix: true
+          }
+        })
+      }
+
       config.module.rules.push({
         test: /\.md$/,
         use: ['raw-loader']

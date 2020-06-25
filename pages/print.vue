@@ -95,7 +95,7 @@
     /* remove any screen only styles, for example link underline */
     * {
         -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+        color-adjust: exact;
     }
 
     nav {

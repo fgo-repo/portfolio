@@ -6,7 +6,7 @@
     <div class="timeline-content">
         <div class="heading">{{ heading }}</div>
         <h1 class="title is-4">{{ title }}</h1>
-        <div style="maxWidth: '25em'"><slot /></div>
+        <div style="max-width: '25em'"><slot /></div>
     </div>
   </div>
   <div v-else>
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div style="maxWidth: '25em'"><slot /></div>
+    <div style="max-width: '25em'"><slot /></div>
   </div>
 </template>
 

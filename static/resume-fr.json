@@ -187,6 +187,7 @@
     {
       "title": "Serveur de tâches Co-Reporter",
       "category": "privé",
+      "url": "https://www.kneip.com/financial-reporting/",
       "media": [],
       "role": "Contributeur",
       "summary": "Co-Reporter Task Server est un service Windows qui exécute de nombreuses tâches (importation, exportation, génération, calcul ...) en arrière-plan pour Co-Reporter / Co-Stream.",
@@ -225,7 +226,8 @@
     {
       "title": "Portfolio",
       "category": "open-source",
-      "repo": "",
+      "url": "https://www.fabricegoret.com/",
+      "repo": "https://github.com/fgo-repo/portfolio",
       "media": [],
       "role": "Créateur",
       "summary": "Site web personnel",
@@ -412,6 +414,12 @@
       "name": "Pierre Colart, développeur fullstack java angular",
       "flavor": "professionnel",
       "quote": "Fabrice est un développeur curieux qui aime découvrir différents langages informatiques en lisant les diverses documentation et en testant celle-ci, ce qui fait de lui un très bon développeur. Durant ma mission, il a mis en place plusieurs projets 'from scratch' dû à ces différentes compétences techniques. C'est un développeur talentueux et de confiance, toujours disponible pour aider ces collègues et partager son savoir.",
+      "private": false
+    },
+    {
+      "name": "Mustafa Gumbar, Senior Software Engineer",
+      "flavor": "professional",
+      "quote": "Fabrice est l'un des meilleurs développeurs avec qui j'ai travaillé chez Kneip. Il possède une excellente connaissance des technologies .Net, Oracle et web. Quelqu'un gentil et toujours disponible pour aider les autres membres de l'équipe. Excellent esprit d'équipe!",
       "private": false
     }
   ]
