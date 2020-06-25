@@ -6,11 +6,11 @@ export const state = () => ({
 })
 
 export const mutations = {
-  SET_COOKIE(state, cookie) {
-    state.cookie = cookie
+  SET_COOKIE(sts, cookie) {
+    sts.cookie = cookie
   },
-  SET_THEME(state, theme) {
-    state.theme = theme
+  SET_THEME(sts, theme) {
+    sts.theme = theme
   }
 }
 

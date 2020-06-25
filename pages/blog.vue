@@ -2,7 +2,6 @@
   <div>
     <div v-for="(attribute, index) in attributes" :key="index" class="diagonal-box-hover">
       <nuxt-link :to="localePath(getPermalink(attribute.url, language))">
-        <!-- <section-item :index="index"> to alternate the background and orientation-->
         <section-item :index="0">
           <blog-item :attribute="attribute.value" :post-url="attribute.url" />
         </section-item>

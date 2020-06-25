@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <nuxt-link :to="localePath(getPermalink(postUrl))"> -->
     <p class="title has-text-centered has-text-light">
       {{ attribute.title }}
     </p>
@@ -23,7 +22,6 @@
     <div class="has-text-centered has-text-light">
         {{ attribute.description }}
     </div>
-    <!-- </nuxt-link> -->
   </div>
 </template>
 
