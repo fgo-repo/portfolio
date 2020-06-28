@@ -21,7 +21,7 @@ let files = locales.map(locale => {
 module.exports = {
   mode: 'universal',
   env: {
-    baseUrl:  process.env.BASE_URL || baseUrl,
+    baseUrl: process.env.BASE_URL || baseUrl,
     staticformsKey:  process.env.STATIC_FORM_KEY || '',
     googleAnalyticKey:  process.env.GOOGLE_ANALYTIC_KEY || ''
   },
@@ -33,13 +33,15 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'portfolio' },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/favicons/mstile-144x144.png' },
       { name: 'theme-color', content: '#31afdd' },
       { name: 'robots', content: 'index, follow' },
       { property: 'og:site_name', content: 'portfolio' },
-      { property: 'og:updated_time', content: new Date().toISOString() }
+      { property: 'og:updated_time', content: new Date().toISOString() },
+      { name: 'google-site-verification', content: process.env.GOOGLE_VERIFICATION || 'none' },
+      { name: 'msvalidate.01', content: process.env.MS_VERIFICATION || 'none' }
     ],
     script: [
     ],
@@ -88,7 +90,7 @@ module.exports = {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: baseUrl,
+    hostname: process.env.BASE_URL || baseUrl,
     routes() {
       return files;
     },
