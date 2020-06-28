@@ -19,6 +19,9 @@ description: A reusable and flexible open source project
   - [Building the cv page](#building-the-cv-page)
   - [Markdown posts](#markdown-posts)
   - [Text to speak](#text-to-speak)
+- [Installation](#installation)
+  - [How to deploy on Netlify?](#how-to-deploy-on-netlify)
+  - [Add environment variables](#add-environment-variables)
 - [Conclusion](#conclusion)
 
 ## Repository
@@ -82,7 +85,7 @@ For each property used in the FRESH Resume schema, a matching component is added
 
 ```javascript
 // pages/cv.vue
-template>
+<template>
     <div>
       <component-wrapper v-for="(section, index) in Object.keys(this.resume)" :key="index" :file="section" folder="cv" :options="resume">
       </component-wrapper>
@@ -360,6 +363,36 @@ Just use the [speak](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynt
 // mixins/textToSpeechMixin.js
 window.speechSynthesis.speak(speaker)
 ```
+
+## Installation
+
+You can generate manually the output (npm run gen) or if you are "lazy" like me, you can use the deployment pipeline offered by some providers like Netlify.
+Some other providers are [Heroku](https://dev.to/edvinsantonovs/-how-to-deploy-and-build-a-static-website-to-heroku) or [GitHub pages](https://pages.github.com).
+
+### How to deploy on Netlify?
+
+Nuxt has an [easy documentation](https://nuxtjs.org/faq/netlify-deployment/) for Netlify, so I'll just copy/paste the parts concerning my website.
+
+Press the "New site from Git" button on the Netlify dashboard. Authenticate with your repository host, select a repository to deploy, and continue. You should land on step 3: "Build options, and deploy!"
+
+For the configuration:
+
+- Branch to deploy: master
+- Build command: npm run gen
+- Publish directory: dist
+
+### Add environment variables
+
+[Netlify](https://docs.netlify.com/configure-builds/environment-variables/#declare-variables) manages the environment variables that I use in nuxt.config.js.
+Just go in your site dashboard under **Settings > Build & deploy > Environment > Environment variables** and add them.
+
+Current metadata (all are optional):
+
+- STATIC_FORM_KEY: Used to set your contact form key for [Staticforms](https://www.staticforms.xyz).
+- GOOGLE_VERIFICATION: Used to submit your website to the search engine of [Google](https://search.google.com/search-console) under the metadata 'google-site-verification'.
+- MS_VERIFICATION: Used to submit your website to the search engine of [Microsoft](https://www.bing.com/webmaster) under the metadata 'msvalidate.01'.
+
+For the last two, you can also provide the automatically generated sitemap (your_website_url/sitemap.xml).
 
 ## Conclusion
 

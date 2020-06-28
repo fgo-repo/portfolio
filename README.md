@@ -1,5 +1,7 @@
 # Fabrice Goret's portfolio
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fgo-repo_portfolio&metric=alert_status)](https://sonarcloud.io/dashboard?id=fgo-repo_portfolio) [![Netlify Status](https://api.netlify.com/api/v1/badges/e6244f8a-4867-4eee-942f-4ee8f8dbf4cb/deploy-status)](https://app.netlify.com/sites/fabricegoret/deploys)
+
 This is my personal website built using [Nuxt.js](https://nuxtjs.org) (Vuejs), [Bulma](https://bulma.io) (CSS framework) and [AOS](https://michalsnik.github.io/aos/) (Animate On Scroll Library).
 
 The personal information on the website is populated from a JSON file that follows the [FRESH Resume schema](https://github.com/fresh-standard/fresh-resume-schema) open source standard.
