@@ -92,23 +92,24 @@ ul {
  }
 }
 
-.scroll-top {
+[class*="top-btn-"] {
    position: fixed;
-   bottom: 40px;
-   right: 20px;
+   left: 1.5rem;
    z-index: 999;
-   background-color: transparent !important;
-}
-
-.print-top {
-   position: fixed;
-   bottom: 40px;
-   left: 20px;
-   z-index: 999;
-   background-color: $danger !important;
+   background-color: $info !important;
    border-radius: 100% !important;
    height: 4rem;
    width: 4rem;
+ }
+
+.top-btn-scroll {
+   bottom: 2rem;
+   background-color: $info !important;
+}
+
+.top-btn-print {
+   bottom: 7rem;
+   background-color: $danger !important;
 }
 
 // resolve conflict between bulma and prism

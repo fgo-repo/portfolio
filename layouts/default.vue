@@ -5,10 +5,10 @@
     <footer-item class="footer" />
     <gdpr-sticky-item />
     <a href="#top">
-      <div class="scroll-top box is-transparent">
-        <div class="icon is-medium">
-          <svg style="width:36px;height:36px" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M16,13V21H8V13H2L12,3L22,13H16M7,11H10V19H14V11H17L12,6L7,11Z" /></svg>
-        </div>
+      <div class="top-btn-scroll box">
+        <svg style="width:24px;height:24px" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="white" d="M16,13V21H8V13H2L12,3L22,13H16M7,11H10V19H14V11H17L12,6L7,11Z" />
+        </svg>
       </div>
     </a>
   </div>
