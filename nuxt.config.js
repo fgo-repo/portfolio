@@ -40,7 +40,9 @@ module.exports = {
       { name: 'robots', content: 'index, follow' },
       { property: 'og:site_name', content: 'portfolio' },
       { property: 'og:updated_time', content: new Date().toISOString() },
+      // https://support.google.com/webmasters/answer/34397?hl=fr
       { name: 'google-site-verification', content: process.env.GOOGLE_VERIFICATION || 'none' },
+      // https://www.bing.com/webmaster/home/mysites
       { name: 'msvalidate.01', content: process.env.MS_VERIFICATION || 'none' }
     ],
     script: [
