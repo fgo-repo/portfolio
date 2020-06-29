@@ -51,6 +51,13 @@ $bg-back: $dark;
 	}
 }
 
+/* fix ie10 and above */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.wrapper {
+	   height: 60vh;
+	}
+}
+
 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 2rem;
