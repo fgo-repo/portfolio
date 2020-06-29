@@ -1,16 +1,20 @@
-<template>    
-    <section v-if="showCookie" class="notification is-success is-small m-bottom-sticky">
-        <div class="columns">
-                <div class="column auto">
-                    {{ $t('gdpr.disclaimer') }}
-                </div>
-                <div class="column is-narrow">
-                    <div class="buttons">
-                        <a @click="approveCookies" class="button is-success is-unselectable is-inverted">{{ $t('gdpr.ok') }}</a>
-                        <nuxt-link :to="localePath('/legal')" class="button is-success is-unselectable is-inverted is-outlined">{{ $t('gdpr.info') }}</nuxt-link>
+<template>
+    <section v-if="showCookie" class="m-bottom-sticky">
+        <div class="container">
+            <div class="notification is-success is-small">
+                <div class="columns">
+                    <div class="column auto">
+                        {{ $t('gdpr.disclaimer') }}
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="buttons is-centered">
+                            <a @click="approveCookies" class="button is-success is-unselectable is-inverted">{{ $t('gdpr.ok') }}</a>
+                            <nuxt-link :to="localePath('/legal')" class="button is-success is-unselectable is-inverted is-outlined">{{ $t('gdpr.info') }}</nuxt-link>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 </template>
 
@@ -47,7 +51,7 @@
     z-index: 980;
     position:fixed !important;
     bottom:0;
-    width:98%;
-    margin: 0 1% 0 1%;
+    left: 0;
+    right: 0;
 }
 </style>

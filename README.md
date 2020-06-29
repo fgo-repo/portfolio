@@ -18,7 +18,9 @@ Update the following parts with your personal information:
 * locales/XX.json for the website pages translations where XX is the language code. For the moment, English and French are available, feel free to add yours.
 
 ## Build Setup
+
 Commands from package.json:
+
 ``` bash
 # install dependencies
 $ npm run install
