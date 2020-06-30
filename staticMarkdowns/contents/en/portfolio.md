@@ -7,23 +7,6 @@ tags:
   - Bulma
 description: A reusable and flexible open source project
 ---
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Repository](#repository)
-- [Concept](#concept)
-- [Main libraries](#main-libraries)
-- [Specifications](#specifications)
-- [Quick start](#quick-start)
-- [Code](#code)
-  - [Building the cv page](#building-the-cv-page)
-  - [Markdown posts](#markdown-posts)
-  - [Text to speak](#text-to-speak)
-- [Installation](#installation)
-  - [How to deploy on Netlify?](#how-to-deploy-on-netlify)
-  - [Add environment variables](#add-environment-variables)
-- [Conclusion](#conclusion)
-
 ## Repository
 
 [GitHub](https://github.com/fgo-repo/portfolio)

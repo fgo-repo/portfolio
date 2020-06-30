@@ -17,18 +17,63 @@ You will find below the list by category of the various cookies used on this web
 
 __Requested cookies__
 
-|Owner|Cookie's name|Goal|Storage time|
-|-----|-------------|----|------------|
-|This website|GDPR|ensure that the end user has accepted cookies on this website|1 year|
-|This website|THEME|save the chosen theme|1 year|
+<table>
+    <thead>
+        <tr>
+            <th>Owner</th>
+            <th>Cookie's name</th>
+            <th>Goal</th>
+            <th>Storage time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-title="Owner">This website</td>
+            <td data-title="Cookie's name">GDPR</td>
+            <td data-title="Goal">ensure that the end user has accepted cookies on this website</td>
+            <td data-title="Storage time">1 year</td>
+        </tr>
+        <tr>
+            <td data-title="Owner">This website</td>
+            <td data-title="Cookie's name">THEME</td>
+            <td data-title="Goal">save the chosen theme</td>
+            <td data-title="Storage time">1 year</td>
+        </tr>
+    </tbody>
+</table>
 
 __Analytical cookies__
 
-|Owner|Cookie's name|Goal|Storage time|
-|-----|-------------|----|------------|
-|Google Analytics|_gat|[limit the number of requests](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|1 minute|
-|Google Analytics|_ga|[distinguish users](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|2 years|
-|Google Analytics|_gid|[distinguish users](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|1 day|
+<table>
+    <thead>
+        <tr>
+            <th>Owner</th>
+            <th>Cookie's name</th>
+            <th>Goal</th>
+            <th>Storage time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-title="Owner">Google Analytics</td>
+            <td data-title="Cookie's name">_gat</td>
+            <td data-title="Goal"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">limit the number of requests</a></td>
+            <td data-title="Storage time">1 minute</td>
+        </tr>
+        <tr>
+            <td data-title="Owner">Google Analytics</td>
+            <td data-title="Cookie's name">_ga</td>
+            <td data-title="Goal"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">distinguish users</a></td>
+            <td data-title="Storage time">2 years</td>
+        </tr>
+        <tr>
+            <td data-title="Owner">Google Analytics</td>
+            <td data-title="Cookie's name">_gid</td>
+            <td data-title="Goal"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">distinguish users</a></td>
+            <td data-title="Storage time">1 day</td>
+        </tr>
+    </tbody>
+</table>
 
 Google assures you that you have implemented all the necessary security measures to guarantee the security of the data via its "Privacy Shield" membership whose certification is visible via this [link](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI).
 

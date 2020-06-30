@@ -1,0 +1,30 @@
+@media screen and (max-width: 42rem) {
+    table {
+        border: 0;
+        display: block;
+        width: 100%;
+        thead {
+            display: none;
+            visibility: hidden;
+        }
+        tbody, tr, th, td {
+            border: 0 !important;
+            display: block;
+            padding: 0.1rem 0rem !important;
+        }
+        tr {
+            margin-bottom: 1rem;
+        }
+        th[data-title]:before, td[data-title]:before {
+            content: attr(data-title) ":\00A0";
+            font-weight: bold;
+        }
+        td:empty {
+            display: none;
+        }
+        td:last-child {
+            border: 1px solid $grey-lighter !important;
+            border-width: 0 0 1px !important;
+        }
+    }
+}

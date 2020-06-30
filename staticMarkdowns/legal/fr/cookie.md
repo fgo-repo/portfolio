@@ -17,18 +17,63 @@ Vous trouverez ci-dessous la liste par catégorie des différents cookies utilis
 
 __Des cookies nécessaires et de fonctionnalité__
 
-|Propriétaire|Nom du cookie|But|Durée de stockage|
-|------------|-------------|---|-----------------|
-|Ce site|GDPR|assurer que l'utilisateur final a accepté les cookies sur ce site Web|1 an|
-|Ce site|THEME|sauver le thème choisi|1 an|
+<table>
+    <thead>
+        <tr>
+            <th>Propriétaire</th>
+            <th>Nom du cookie</th>
+            <th>But</th>
+            <th>Durée de stockage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-title="Propriétaire">Ce site</td>
+            <td data-title="Nom du cookie">GDPR</td>
+            <td data-title="But">assurer que l'utilisateur final a accepté les cookies sur ce site Web</td>
+            <td data-title="Durée de stockage">1 an</td>
+        </tr>
+        <tr>
+            <td data-title="Propriétaire">Ce site</td>
+            <td data-title="Nom du cookie">THEME</td>
+            <td data-title="But">sauver le thème choisi</td>
+            <td data-title="Durée de stockage">1 an</td>
+        </tr>
+    </tbody>
+</table>
 
 __Des cookies analytiques__
 
-|Propriétaire|Nom du cookie|But|Durée de stockage|
-|------------|-------------|---|-----------------|
-|Google Analytics|_gat|[limiter le nombre de demandes](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|1 minute|
-|Google Analytics|_ga|[distinguer les utilisateurs](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|2 ans|
-|Google Analytics|_gid|[distinguer les utilisateurs](http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)|1 jour|
+<table>
+    <thead>
+        <tr>
+            <th>Propriétaire</th>
+            <th>Nom du cookie</th>
+            <th>But</th>
+            <th>Durée de stockage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-title="Propriétaire">Google Analytics</td>
+            <td data-title="Nom du cookie">_gat</td>
+            <td data-title="But"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">limiter le nombre de demandes</a></td>
+            <td data-title="Durée de stockage">1 minute</td>
+        </tr>
+        <tr>
+            <td data-title="Propriétaire">Google Analytics</td>
+            <td data-title="Nom du cookie">_ga</td>
+            <td data-title="But"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">distinguer les utilisateurs</a></td>
+            <td data-title="Durée de stockage">2 ans</td>
+        </tr>
+        <tr>
+            <td data-title="Propriétaire">Google Analytics</td>
+            <td data-title="Nom du cookie">_gid</td>
+            <td data-title="But"><a href="http://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">distinguer les utilisateurs</a></td>
+            <td data-title="Durée de stockage">1 jour</td>
+        </tr>
+    </tbody>
+</table>
 
 Google assure avoir mis en place toutes les mesures de sécurité nécessaires pour garantir la sécurité des données via son adhésion au « Privacy Shield » dont la certification est visible via ce [lien](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI).
 
