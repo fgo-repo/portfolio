@@ -2,13 +2,17 @@ html {
    scroll-behavior: smooth !important;
 }
 
+// fix extra space on the right on mobile
+body {
+   overflow-x: hidden;
+}
+
 /* fix ie10 and above */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
    .hero-body,.hero-head,.hero-footer, section {
       display: block !important;
    }
 }
-
 
 .main {
    /* make sure to cover the screen */
@@ -17,11 +21,12 @@ html {
    position: relative;
    z-index: 1;
    background-color: $light;
+   margin-bottom: 8rem !important;
 }
 
 .footer {
-   position: -webkit-sticky;
-   position: sticky;
+   position: fixed;
+   height: 8rem !important;
    bottom: 0;
    left: 0;
    right: 0;

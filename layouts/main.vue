@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt />
+    <nuxt class="main" />
     <footer-item class="footer" />
     <gdpr-sticky-item data-aos="zoom-in-up" data-aos-duration="1500" />
   </div>
