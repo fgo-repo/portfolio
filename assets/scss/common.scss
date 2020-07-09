@@ -2,11 +2,6 @@ html {
    scroll-behavior: smooth !important;
 }
 
-// fix extra space on the right on mobile
-body {
-   overflow-x: hidden;
-}
-
 /* fix ie10 and above */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
    .hero-body,.hero-head,.hero-footer, section {
@@ -103,6 +98,12 @@ ul {
 @media only screen and (min-width: $tablet) {
  .article-up {
    margin: -9rem auto 0 auto;
+ }
+}
+@media screen and (max-width: $tablet) {
+ // fix extra space on the right on mobile
+ body {
+   overflow-x: hidden;
  }
 }
 
