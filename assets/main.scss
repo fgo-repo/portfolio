@@ -78,7 +78,7 @@ $colors: (
     .title, .subtitle, .label, h1, h2, h3, h4, h5, h6, p, li, th, td, strong, div {
         color: $white !important;
     }
-    .input, .textarea, .select {
+    input, textarea, select {
         background-color: $black !important;
         border-color: $grey-light !important;
         color: $white !important;
