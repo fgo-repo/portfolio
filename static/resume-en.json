@@ -43,11 +43,27 @@
     "summary": "List of the amazing opportunities I took",
     "history": [
       {
+        "position": "Consultant",
+        "employer": "Davidson Consulting",
+        "summary": "Analysis, architecture and development of .Net Core microservices",
+        "current": true,
+        "start": "2020-09-01",
+        "url": "https://www.davidson.fr/filiale/davidson-luxembourg/",
+        "keywords": [
+          "C#",
+          ".NET core",
+          ".NET",
+          "microservices"
+        ],
+        "highlights": [
+        ]
+      },
+      {
         "position": "Analyst, Application Development",
         "employer": "Kneip",
         "summary": "Analysis, architecture and development of .Net Core microservices, based on an Entity Framework/Oracle data access layer or a Hbase database, communicating together by Kafka events.",
-        "current": true,
         "start": "2017-01-01",
+        "end": "2020-08-31",
         "url": "https://www.kneip.com/",
         "keywords": [
           "C#",
@@ -404,6 +420,12 @@
     }
   ],
   "testimonials": [
+    {
+      "name": "Christophe Michel, Product Owner",
+      "flavor": "professionnel",
+      "quote": "I have the privilege of working with Fabrice Goret at KNEIP. He is an important contributor to many of our projects and is working on analysis and design of complex applications. He is proactive, result oriented, responsible and technically sound employee. Fabrice makes things happen! He is passionate about coding and solving clients’ problems through the development of creative and innovative working software, meeting the highest standards. Fabrice is highly creative, a very easy-going person to work with and assists his co-workers at every opportunity. He is a great asset to any company.",
+      "private": false
+    },
     {
       "name": "Mathieu Mansart, Consultant at SOGETI Luxembourg",
       "flavor": "professional",

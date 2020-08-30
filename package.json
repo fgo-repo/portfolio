@@ -25,14 +25,14 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/sitemap": "^2.3.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0",
     "eslint-plugin-nuxt": "^1.0.0",
-    "@nuxtjs/markdownit": "^1.2.9",
     "frontmatter-markdown-loader": "^3.6.0",
     "markdown-it-attrs": "^3.0.3",
     "node-sass": "^4.14.1",
-    "@nuxtjs/sitemap": "^2.3.2",
     "prismjs": "^1.20.0",
     "sass-loader": "^8.0.2"
   }

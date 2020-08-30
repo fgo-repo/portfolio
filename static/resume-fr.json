@@ -6,7 +6,7 @@
   "name": "Fabrice Goret",
   "info": {
     "label": "Analyste développeur full stack",
-    "brief": "J'ai plus de 10 ans d'expérience dans le domaine .NET et Oracle technologies, spécialisée dans le domaine des services financiers au Luxembourg. Mon expérience va du développement front et back-end, y compris les API, les micro-services, base de données, de reporting, de l'exploration de données et les applications Windows. Au-delà du développement, j'ai analysé les besoins, proposé et mis en œuvre avec succès des solutions durables, à la suite de modèles de conception sna meilleures pratiques. Mes principaux centres d'intérêt dans la zone de développement sont l'analyse, les architectures orientées Web et bases de données.",
+    "brief": "J'ai plus de 10 ans d'expérience dans le domaine des technologies .NET et Oracle, spécialisé dans le domaine des services financiers au Luxembourg. Mon expérience va du développement front et back-end, comprenant les API, les micro-services, base de données, le reporting, le data mining et les applications Windows. Au-delà du développement, j'ai analysé les besoins, proposé et mis en œuvre avec succès des solutions durables, suivant les design patterns et les meilleures pratiques. Mes principaux centres d'intérêt dans le développement sont l'analyse, les architectures orientées Web et bases de données.",
     "image": "/images/ego.png",
     "quote": "Évoluer ou mourir"
   },
@@ -43,11 +43,27 @@
     "summary": "Liste des formidables opportunités que j'ai pris",
     "history": [
       {
+        "position": "Consultant",
+        "employer": "Davidson Consulting",
+        "summary": "Analyse, architecture et développement de microservices en .Net core",
+        "current": true,
+        "start": "2020-09-01",
+        "url": "https://www.davidson.fr/filiale/davidson-luxembourg/",
+        "keywords": [
+          "C#",
+          ".NET core",
+          ".NET",
+          "microservices"
+        ],
+        "highlights": [
+        ]
+      },
+      {
         "position": "Analyste, développeur de logiciels",
         "employer": "Kneip",
-        "summary": "Analyse, architecture et développement en .Net et microservices en .Net core, basés sur une couche d'accès de données Entity Framework/Oracle ou une base de données Hbase, communiquant ensemble par événements Kafka.",
-        "current": true,
+        "summary": "Analyse, architecture et développement de microservices en .Net core, basés sur une couche d'accès de données Entity Framework/Oracle ou une base de données Hbase, communiquant ensemble par événements Kafka.",
         "start": "2017-01-01",
+        "end": "2020-08-31",
         "url": "https://www.kneip.com/",
         "keywords": [
           "C#",
@@ -79,13 +95,13 @@
         ],
         "highlights": [
           "Clients et applications web pour l'industrie des Fonds (Financial reporting, KIIDs, PRIIPs).",
-          "La mise en œuvre de nouveaux rapports (MMIF, MMM, le MRN, MC1, U1.1,...) basées sur les spécifications officielles.",
+          "Conception de nouveaux rapports (MMIF, MMM, le MRN, MC1, U1.1,...) basées sur les spécifications officielles.",
           "Conception et développement d'un service web utilisé pour générer des rapports. Il utilise l'injection et de l'abstraction pour permettre de multiples sources de données, des templates, et à être utilisé par n'importe quel logiciel sur n'importe quel type de base de données (les données peuvent provenir de db).",
-          "La mise en œuvre de tests unitaires."
+          "Conception de tests unitaires."
         ]
       },
       {
-        "position": "Ingénieur en automatique",
+        "position": "Ingénieur automaticien",
         "employer": "Duferco",
         "summary": "Développement d'applications pour l'industrie de l'acier",
         "start": "2007-10-01",
@@ -98,16 +114,16 @@
           "SAP Crystal Reports"
         ],
         "highlights": [
-          "Développement et amélioration du système informatique de supervision de l’aciérie, avec acquisition écriture de données sur des automates (via opc server) et sur des instruments. Il permet d'enregistrer les données de process avec peu d'intervention des ouvriers, à obtenir et à répondre aux ordres de fabrication des commerciaux et de les adapter à la production, afin d'appliquer et de montrer la qualité des recettes, afin d'obtenir le retour des opérateurs.",
+          "Développement et amélioration du système informatique de supervision de l’aciérie, avec acquisition de données sur des automates (via opc server) et sur des instruments. Il permet d'enregistrer les données de process avec peu d'intervention des ouvriers, à obtenir et à répondre aux ordres de fabrication des commerciaux et de les adapter à la production, afin d'appliquer et de montrer la qualité des recettes, afin d'obtenir le retour des opérateurs.",
           "Conception et programmation d'outils de prise de décision pour la qualité et la production.",
-          "Conception et programmation de centaines de rapports statistiques. Au moins 140 d'entre eux peuvent être imprimés par rapport Crystal. Certains d'entre eux sont directement commentés par les utilisateurs dans l'interface de supervision.",
-          "Conception et programmation d'un outil pour extraire et de mettre à jour une base de données historique, à partir d'une base de données de production par du pl/sql dynamique.",
+          "Conception et programmation de centaines de rapports statistiques. Au moins 140 d'entre eux peuvent être imprimés par Crystal Report. Certains d'entre eux sont directement commentés par les utilisateurs dans l'interface de supervision.",
+          "Conception et programmation d'un outil pour extraire et mettre à jour une base de données historique, à partir d'une base de données de production par du pl/sql dynamique.",
           "Conception et programmation d'un générateur de code pour la DAL et les opérations CRUD.",
           "Formations des opérateurs et le help desk."
         ]
       },
       {
-        "position": "Ingénieur en automatique",
+        "position": "Ingénieur automaticien",
         "employer": "Mubea Systems",
         "summary": "Automatisation et programmation de l'interface utilisateur.",
         "start": "2006-01-01",
@@ -404,6 +420,12 @@
     }
   ],
   "testimonials": [
+    {
+      "name": "Christophe Michel, Product Owner",
+      "flavor": "professionnel",
+      "quote": "J'ai le privilège de travailler avec Fabrice Goret au KNEIP. Il est un contributeur important à plusieurs de nos projets et travaille sur l'analyse et la conception d'applications complexes. Il est un employé proactif, axé sur les résultats, responsable et techniquement solide. Fabrice fait bouger les choses! Il est passionné par le codage et la résolution des problèmes des clients grâce au développement de logiciels fonctionnels créatifs et innovants, répondant aux normes les plus élevées. Fabrice est très créatif, une personne très facile à vivre et assiste ses collègues à chaque occasion. Il est un grand atout pour toute entreprise.",
+      "private": false
+    },
     {
       "name": "Mathieu Mansart, consultant chez SOGETI Luxembourg",
       "flavor": "professionnel",
